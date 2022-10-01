@@ -1,0 +1,24 @@
+{
+  "name": "nodecli",
+  "version": "1.0.0",
+  "description": "custom cli with node",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "bin": {
+    "tran": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/translate": "^7.0.2",
+    "@vitalets/google-translate-api": "^8.0.0",
+    "boxen": "^7.0.0",
+    "chalk": "^5.0.1",
+    "yargs": "^17.5.1"
+  }
+}
